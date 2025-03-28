@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PW Corporates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/contact.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-map">
+            <div class="map-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">Get in <span class="highlight">Touch</span></h1>
+                <p class="hero-subtitle">We'd love to hear from you. Contact us for any inquiries or assistance.</p>
+                <div class="contact-cards">
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Business Avenue, Colombo, Sri Lanka</p>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+94 11 234 5678</p>
+                        <p>+94 77 123 4567</p>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@pwcorporates.lk</p>
+                        <p>support@pwcorporates.lk</p>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="form-container" data-aos="fade-right">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Send Us a Message</h2>
+                        <p class="section-subtitle">Fill out the form below and we'll get back to you as soon as possible.</p>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service of Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a Service</option>
+                                <option value="Accounting">Accounting</option>
+                                <option value="Property Management">Property Management</option>
+                                <option value="Show Money">Show Money</option>
+                                <option value="Salary Management">Salary Management</option>
+                                <option value="Legal Advice">Legal Advice</option>
+                                <option value="Tourism">Tourism</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="map-container" data-aos="fade-left">
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467512262!2d79.84882661477222!3d6.910723995005368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259251b57a431%3A0x8f44e226d6d20a7e!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1625124347514!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about our services</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <h3>What services does PW Corporates offer?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>PW Corporates offers a comprehensive range of business services including Accounting, Property Management, Show Money services, Salary Management, Legal Advice, and Tourism services. Each service is designed to help businesses and individuals navigate their respective areas with professional expertise and support.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I schedule a consultation?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Scheduling a consultation with PW Corporates is easy. You can fill out the contact form on this page, call us directly at +94 11 234 5678, or email us at info@pwcorporates.lk. Our team will respond promptly to arrange a consultation at a time that works for you. We offer both in-person and virtual consultations to accommodate your preferences and schedule.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your service fees?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our service fees vary depending on the specific service and the scope of work required. We believe in transparent pricing and will provide a detailed quote after understanding your specific needs during the initial consultation. We offer competitive rates and flexible payment options to accommodate different budgets and requirements. For some services, we offer package deals and retainer options for ongoing support.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you serve clients outside of Colombo?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we serve clients throughout Sri Lanka and even international clients with interests in Sri Lanka. While our main office is located in Colombo, we offer virtual consultations and services for clients who cannot visit us in person. Our team is experienced in working with remote clients and ensuring seamless communication and service delivery regardless of location.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How quickly can I expect a response to my inquiry?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We strive to respond to all inquiries within 24 business hours. Our team is committed to providing prompt and attentive service to all clients and potential clients. For urgent matters, we recommend calling our office directly at +94 11 234 5678 during business hours. We also have a dedicated support team that monitors our email outside of regular business hours for time-sensitive requests.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Get Started?</h2>
+                <p>Contact us today to learn how our services can benefit you and your business.</p>
+                <a href="#" class="btn btn-light" id="scrollToForm">Contact Us Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>

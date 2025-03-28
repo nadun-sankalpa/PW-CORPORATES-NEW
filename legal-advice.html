@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Advice - PW Corporates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/legal-advice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/legal-advice.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html" class="active">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-background">
+            <div class="scales-animation"></div>
+            <div class="gavel-animation"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="hero-title">Expert Legal <span class="highlight">Advice</span></h1>
+                    <p class="hero-subtitle">Professional legal consultation and representation for individuals and businesses in Sri Lanka</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">Our Services</a>
+                        <a href="#contact" class="btn btn-outline">Free Consultation</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+                    <div class="image-container">
+                        <img src="images/legal-hero.png" alt="Legal Services">
+                        <div class="floating-badge badge1">
+                            <div class="badge-icon"><i class="fas fa-balance-scale"></i></div>
+                            <div class="badge-text">Expert Attorneys</div>
+                        </div>
+                        <div class="floating-badge badge2">
+                            <div class="badge-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="badge-text">Legal Protection</div>
+                        </div>
+                        <div class="floating-badge badge3">
+                            <div class="badge-icon"><i class="fas fa-gavel"></i></div>
+                            <div class="badge-text">Court Representation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Experienced Attorneys</h3>
+                    <p>Our team consists of highly qualified attorneys with years of experience in various legal fields.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client-Focused Approach</h3>
+                    <p>We prioritize your needs and work diligently to achieve the best possible outcome for your case.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Comprehensive Services</h3>
+                    <p>From simple legal advice to complex litigation, we offer a wide range of legal services.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>International Expertise</h3>
+                    <p>Our attorneys have experience in both local and international legal matters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-video" data-aos="fade-right">
+                    <div class="video-container">
+                        <img src="images/legal-office.jpg" alt="Legal Office">
+                        <div class="play-button" id="play-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-modal" id="video-modal">
+                        <div class="modal-content">
+                            <span class="close-modal">&times;</span>
+                            <div class="video-frame">
+                                <iframe width="560" height="315" src="/placeholder.svg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">About Our Legal Services</h2>
+                        <p class="section-subtitle">Trusted legal advisors since 2005</p>
+                    </div>
+                    <p>At PW Corporates, our legal team is dedicated to providing exceptional legal services to individuals and businesses throughout Sri Lanka. With over 15 years of experience, we have built a reputation for excellence, integrity, and client satisfaction.</p>
+                    <p>Our attorneys are experts in their respective fields and stay up-to-date with the latest legal developments to ensure that you receive the most current and effective legal advice. We understand that legal issues can be stressful and complex, which is why we strive to make the process as smooth and transparent as possible.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="1500">0</span>+</div>
+                            <div class="stat-text">Cases Won</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="25">0</span>+</div>
+                            <div class="stat-text">Expert Attorneys</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="3000">0</span>+</div>
+                            <div class="stat-text">Satisfied Clients</div>
+                        </div>
+                    </div>
+                    <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Legal Services</h2>
+                <p class="section-subtitle">Comprehensive legal solutions for all your needs</p>
+            </div>
+            <div class="services-container">
+                <div class="service-tabs" data-aos="fade-up">
+                    <div class="tabs-nav">
+                        <button class="tab-button active" data-tab="corporate">Corporate Law</button>
+                        <button class="tab-button" data-tab="property">Property Law</button>
+                        <button class="tab-button" data-tab="family">Family Law</button>
+                        <button class="tab-button" data-tab="criminal">Criminal Law</button>
+                        <button class="tab-button" data-tab="immigration">Immigration Law</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tab-pane active" id="corporate-tab">
+                            <div class="service-content">
+                                <div class="service-image">
+                                    <img src="images/corporate-law.jpg" alt="Corporate Law">
+                                </div>
+                                <div class="service-details">
+                                    <h3>Corporate Law Services</h3>
+                                    <p>Our corporate law services are designed to help businesses navigate the complex legal landscape of Sri Lanka. From company formation to mergers and acquisitions, our experienced attorneys provide comprehensive legal support to businesses of all sizes.</p>
+                                    <ul class="service-list">
+                                        <li><i class="fas fa-check-circle"></i> Company Formation and Registration</li>
+                                        <li><i class="fas fa-check-circle"></i> Corporate Governance and Compliance</li>
+                                        <li><i class="fas fa-check-circle"></i> Mergers and Acquisitions</li>
+                                        <li><i class="fas fa-check-circle"></i> Contract Drafting and Review</li>
+                                        <li><i class="fas fa-check-circle"></i> Intellectual Property Protection</li>
+                                        <li><i class="fas fa-check-circle"></i> Employment Law and HR Support</li>
+                                        <li><i class="fas fa-check-circle"></i> Corporate Litigation and Dispute Resolution</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">Get Legal Advice</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="property-tab">
+                            <div class="service-content">
+                                <div class="service-image">
+                                    <img src="images/property-law.jpg" alt="Property Law">
+                                </div>
+                                <div class="service-details">
+                                    <h3>Property Law Services</h3>
+                                    <p>Our property law team specializes in all aspects of real estate and property transactions in Sri Lanka. Whether you're buying, selling, or leasing property, our attorneys ensure that your interests are protected throughout the process.</p>
+                                    <ul class="service-list">
+                                        <li><i class="fas fa-check-circle"></i> Property Purchase and Sale Agreements</li>
+                                        <li><i class="fas fa-check-circle"></i> Title Searches and Due Diligence</li>
+                                        <li><i class="fas fa-check-circle"></i> Lease Agreements and Negotiations</li>
+                                        <li><i class="fas fa-check-circle"></i> Property Dispute Resolution</li>
+                                        <li><i class="fas fa-check-circle"></i> Land Development and Planning Law</li>
+                                        <li><i class="fas fa-check-circle"></i> Condominium Law</li>
+                                        <li><i class="fas fa-check-circle"></i> Property Tax Advice</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">Get Legal Advice</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="family-tab">
+                            <div class="service-content">
+                                <div class="service-image">
+                                    <img src="images/family-law.jpg" alt="Family Law">
+                                </div>
+                                <div class="service-details">
+                                    <h3>Family Law Services</h3>
+                                    <p>Our family law attorneys provide compassionate and effective legal representation for a wide range of family matters. We understand the sensitive nature of family issues and strive to achieve the best possible outcome for you and your loved ones.</p>
+                                    <ul class="service-list">
+                                        <li><i class="fas fa-check-circle"></i> Divorce and Separation</li>
+                                        <li><i class="fas fa-check-circle"></i> Child Custody and Support</li>
+                                        <li><i class="fas fa-check-circle"></i> Spousal Maintenance</li>
+                                        <li><i class="fas fa-check-circle"></i> Property Division</li>
+                                        <li><i class="fas fa-check-circle"></i> Prenuptial and Postnuptial Agreements</li>
+                                        <li><i class="fas fa-check-circle"></i> Adoption and Guardianship</li>
+                                        <li><i class="fas fa-check-circle"></i> Domestic Violence Protection</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">Get Legal Advice</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="criminal-tab">
+                            <div class="service-content">
+                                <div class="service-image">
+                                    <img src="images/criminal-law.jpg" alt="Criminal Law">
+                                </div>
+                                <div class="service-details">
+                                    <h3>Criminal Law Services</h3>
+                                    <p>Our criminal defense attorneys provide vigorous representation for individuals facing criminal charges. We are committed to protecting your rights and achieving the best possible outcome for your case.</p>
+                                    <ul class="service-list">
+                                        <li><i class="fas fa-check-circle"></i> Criminal Defense Representation</li>
+                                        <li><i class="fas fa-check-circle"></i> Bail Applications</li>
+                                        <li><i class="fas fa-check-circle"></i> DUI/DWI Defense</li>
+                                        <li><i class="fas fa-check-circle"></i> White Collar Crime Defense</li>
+                                        <li><i class="fas fa-check-circle"></i> Juvenile Crime Defense</li>
+                                        <li><i class="fas fa-check-circle"></i> Appeals and Post-Conviction Relief</li>
+                                        <li><i class="fas fa-check-circle"></i> Criminal Record Expungement</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">Get Legal Advice</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="immigration-tab">
+                            <div class="service-content">
+                                <div class="service-image">
+                                    <img src="images/immigration-law.jpg" alt="Immigration Law">
+                                </div>
+                                <div class="service-details">
+                                    <h3>Immigration Law Services</h3>
+                                    <p>Our immigration attorneys help individuals and businesses navigate the complex immigration laws of Sri Lanka and other countries. We provide comprehensive immigration services to help you achieve your immigration goals.</p>
+                                    <ul class="service-list">
+                                        <li><i class="fas fa-check-circle"></i> Visa Applications and Extensions</li>
+                                        <li><i class="fas fa-check-circle"></i> Residence Permits</li>
+                                        <li><i class="fas fa-check-circle"></i> Work Permits and Employment Visas</li>
+                                        <li><i class="fas fa-check-circle"></i> Business and Investor Visas</li>
+                                        <li><i class="fas fa-check-circle"></i> Family Reunification</li>
+                                        <li><i class="fas fa-check-circle"></i> Citizenship Applications</li>
+                                        <li><i class="fas fa-check-circle"></i> Immigration Appeals and Litigation</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">Get Legal Advice</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Meet Our Legal Team</h2>
+                <p class="section-subtitle">Experienced attorneys dedicated to your success</p>
+            </div>
+            <div class="team-slider" data-aos="fade-up">
+                <div class="team-slider-container">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/attorney1.jpg" alt="Attorney">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3>Rajiv Perera</h3>
+                            <p class="member-position">Corporate Law Specialist</p>
+                            <p class="member-description">With over 20 years of experience in corporate law, Rajiv has helped numerous businesses navigate complex legal challenges.</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/attorney2.jpg" alt="Attorney">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3>Amali Fernando</h3>
+                            <p class="member-position">Family Law Attorney</p>
+                            <p class="member-description">Amali specializes in family law and is known for her compassionate approach to sensitive family matters.</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/attorney3.jpg" alt="Attorney">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3>Dinesh Kumar</h3>
+                            <p class="member-position">Property Law Expert</p>
+                            <p class="member-description">Dinesh has extensive experience in property law and has successfully handled numerous high-value property transactions.</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/attorney4.jpg" alt="Attorney">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3>Priya Jayawardena</h3>
+                            <p class="member-position">Criminal Defense Attorney</p>
+                            <p class="member-description">Priya is a skilled criminal defense attorney with a proven track record of successful case outcomes.</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/attorney5.jpg" alt="Attorney">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3>Malik Samaraweera</h3>
+                            <p class="member-position">Immigration Law Specialist</p>
+                            <p class="member-description">Malik specializes in immigration law and has helped countless clients achieve their immigration goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots"></div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Legal Process</h2>
+                <p class="section-subtitle">How we handle your legal matters</p>
+            </div>
+            <div class="process-steps" data-aos="fade-up">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Initial Consultation</h3>
+                        <p>We begin with a detailed consultation to understand your legal needs and objectives.</p>
+                    </div>
+                    <div class="step-number">01</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Case Evaluation</h3>
+                        <p>Our attorneys thoroughly evaluate your case and develop a strategic legal approach.</p>
+                    </div>
+                    <div class="step-number">02</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Legal Strategy</h3>
+                        <p>We create a customized legal strategy tailored to your specific situation and goals.</p>
+                    </div>
+                    <div class="step-number">03</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Implementation</h3>
+                        <p>Our team implements the legal strategy, representing your interests at every step.</p>
+                    </div>
+                    <div class="step-number">04</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Resolution</h3>
+                        <p>We work diligently to achieve a favorable resolution to your legal matter.</p>
+                    </div>
+                    <div class="step-number">05</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about our legal services</p>
+            </div>
+            <div class="testimonials-container" data-aos="fade-up">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>PW Corporates' legal team provided exceptional service during my company's merger. Their attention to detail and strategic approach ensured a smooth transaction. I highly recommend their corporate legal services.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client1.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Rajiv Perera</h4>
+                                <p>CEO, Tech Innovations Ltd.</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>I was going through a difficult divorce, and the family law attorneys at PW Corporates provided compassionate and effective representation. They helped me navigate the complex legal process and ensured that my rights were protected. I'm grateful for their support during this challenging time.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client2.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Amali Fernando</h4>
+                                <p>Family Law Client</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>The property law team at PW Corporates helped me with a complex land dispute that had been ongoing for years. Their expertise and dedication led to a favorable resolution. I highly recommend their property law services to anyone facing property-related legal issues.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client3.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Dinesh Kumar</h4>
+                                <p>Property Owner</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Answers to common legal questions</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <h3>How much do your legal services cost?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our legal fees vary depending on the type and complexity of your case. We offer several fee structures, including hourly rates, flat fees for specific services, and contingency fees for certain types of cases. During your initial consultation, we will discuss your legal needs and provide a clear explanation of our fee structure and an estimate of the total cost. We are committed to transparency in our billing practices and will keep you informed about costs throughout the legal process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long will my legal case take?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The duration of a legal case depends on various factors, including the type of case, its complexity, the court's schedule, and whether a settlement can be reached. Some straightforward matters can be resolved in a few weeks, while complex litigation may take months or even years. During your initial consultation, we will provide an estimated timeline based on our experience with similar cases. We strive to resolve your legal matters as efficiently as possible while ensuring that your interests are fully protected.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need a lawyer for my situation?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While some simple legal matters can be handled without an attorney, having professional legal representation is often beneficial, especially for complex issues. A lawyer can help you understand your rights and obligations, navigate complex legal procedures, avoid costly mistakes, and achieve the best possible outcome. We offer a free initial consultation to assess your situation and advise whether you would benefit from legal representation. Even if you decide not to hire an attorney, this consultation can provide valuable guidance on how to proceed.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What should I bring to my initial consultation?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To make the most of your initial consultation, please bring any documents relevant to your legal matter. This may include contracts, correspondence, court documents, police reports, medical records, financial statements, or any other information related to your case. Also, prepare a chronological summary of the events leading to your legal issue and a list of questions you'd like to ask. This preparation will help us understand your situation more quickly and provide more specific advice during the consultation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How often will I receive updates about my case?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We believe in maintaining open and regular communication with our clients. You will receive updates whenever there are significant developments in your case. Additionally, we schedule regular check-ins to discuss progress and address any concerns you may have. Our attorneys are always available to answer your questions via phone or email. During your initial consultation, we will establish a communication plan that meets your preferences and ensures you stay informed throughout the legal process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get Legal Advice</h2>
+                <p class="section-subtitle">Contact us for a free consultation</p>
+            </div>
+            <div class="contact-container" data-aos="fade-up">
+                <div class="contact-form">
+                    <form id="legalContactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Legal Service</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a Service</option>
+                                    <option value="Corporate Law">Corporate Law</option>
+                                    <option value="Property Law">Property Law</option>
+                                    <option value="Family Law">Family Law</option>
+                                    <option value="Criminal Law">Criminal Law</option>
+                                    <option value="Immigration Law">Immigration Law</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Briefly describe your legal issue" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Request Consultation</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Our Location</h3>
+                            <p>123 Business Avenue, Colombo, Sri Lanka</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Call Us</h3>
+                            <p>+94 11 234 5678</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <p>legal@pwcorporates.lk</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Working Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <h3>Need Urgent Legal Assistance?</h3>
+                        <p>Call our 24/7 legal helpline for immediate assistance.</p>
+                        <a href="tel:+94112345678" class="btn btn-primary">+94 11 234 5678</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-background"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Need Legal Representation?</h2>
+                <p>Contact us today for a free consultation with one of our experienced attorneys.</p>
+                <a href="#contact" class="btn btn-light">Schedule Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+     <script src="js/legal-advice.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>

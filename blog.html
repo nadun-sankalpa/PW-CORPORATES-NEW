@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PW Corporates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/blog.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">Our <span class="highlight">Blog</span></h1>
+                <p class="hero-subtitle">Insights, tips, and updates from PW Corporates</p>
+                <div class="search-container">
+                    <form class="search-form">
+                        <input type="text" placeholder="Search articles..." class="search-input">
+                        <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Featured Posts Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Articles</h2>
+                <p class="section-subtitle">Our most popular and informative content</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-main" data-aos="fade-right">
+                    <div class="blog-card large">
+                        <div class="card-image">
+                            <img src="images/blog-featured.jpg" alt="Featured Blog Post">
+                            <div class="card-category">Business</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span><i class="fas fa-calendar-alt"></i> June 15, 2023</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-comments"></i> 24 Comments</span>
+                            </div>
+                            <h3 class="card-title">10 Essential Financial Strategies for Small Businesses in Sri Lanka</h3>
+                            <p class="card-excerpt">Discover the key financial strategies that can help small businesses in Sri Lanka thrive in today's competitive market. From effective cash flow management to smart investment decisions, these tips will guide you towards financial success.</p>
+                            <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-side" data-aos="fade-left">
+                    <div class="blog-card">
+                        <div class="card-image">
+                            <img src="images/blog-featured2.jpg" alt="Featured Blog Post">
+                            <div class="card-category">Property</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span><i class="fas fa-calendar-alt"></i> June 10, 2023</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                            </div>
+                            <h3 class="card-title">The Future of Real Estate Investment in Colombo</h3>
+                            <p class="card-excerpt">An in-depth analysis of the real estate market trends in Colombo and investment opportunities for 2023 and beyond.</p>
+                            <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="card-image">
+                            <img src="images/blog-featured3.jpg" alt="Featured Blog Post">
+                            <div class="card-category">Legal</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span><i class="fas fa-calendar-alt"></i> June 5, 2023</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                            </div>
+                            <h3 class="card-title">Understanding the New Corporate Tax Laws in Sri Lanka</h3>
+                            <p class="card-excerpt">A comprehensive guide to the recent changes in corporate tax legislation and how they affect businesses of all sizes.</p>
+                            <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Browse by Category</h2>
+                <p class="section-subtitle">Find articles related to your interests</p>
+            </div>
+            <div class="categories-grid" data-aos="fade-up">
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Accounting</h3>
+                    <p>24 Articles</p>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>18 Articles</p>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Finance</h3>
+                    <p>32 Articles</p>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Investments</h3>
+                    <p>15 Articles</p>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Legal</h3>
+                    <p>20 Articles</p>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Tourism</h3>
+                    <p>12 Articles</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Posts Section -->
+    <section class="latest-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Latest Articles</h2>
+                <p class="section-subtitle">Stay updated with our newest content</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="images/blog1.jpg" alt="Blog Post">
+                        <div class="card-category">Finance</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> June 1, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">5 Ways to Improve Your Business Cash Flow</h3>
+                        <p class="card-excerpt">Effective strategies to manage and improve cash flow for small and medium-sized businesses in today's economic climate.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="images/blog2.jpg" alt="Blog Post">
+                        <div class="card-category">Accounting</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> May 28, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">Understanding Financial Statements: A Guide for Non-Accountants</h3>
+                        <p class="card-excerpt">A comprehensive guide to help business owners and managers understand and interpret financial statements effectively.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="images/blog3.jpg" alt="Blog Post">
+                        <div class="card-category">Property</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> May 22, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">Maximizing Rental Income: Tips for Property Owners</h3>
+                        <p class="card-excerpt">Practical strategies for property owners to increase rental income while maintaining tenant satisfaction and property value.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-image">
+                        <img src="images/blog4.jpg" alt="Blog Post">
+                        <div class="card-category">Legal</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> May 15, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">Legal Considerations for Starting a Business in Sri Lanka</h3>
+                        <p class="card-excerpt">Essential legal information and requirements for entrepreneurs looking to establish a business in Sri Lanka.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-image">
+                        <img src="images/blog5.jpg" alt="Blog Post">
+                        <div class="card-category">Tourism</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> May 10, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">The Impact of Tourism on Sri Lanka's Economy</h3>
+                        <p class="card-excerpt">An analysis of how tourism contributes to Sri Lanka's economic growth and the opportunities it presents for businesses.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-image">
+                        <img src="images/blog6.jpg" alt="Blog Post">
+                        <div class="card-category">Finance</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar-alt"></i> May 5, 2023</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3 class="card-title">Investment Opportunities in Sri Lanka's Growing Sectors</h3>
+                        <p class="card-excerpt">Exploring the most promising investment opportunities across various sectors in Sri Lanka's evolving economy.</p>
+                        <a href="blog-single.html" class="btn btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" data-aos="fade-up">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <span class="page-dots">...</span>
+                <a href="#" class="page-link">10</a>
+                <a href="#" class="page-link next"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <div class="newsletter-text">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with our latest articles, insights, and business tips delivered directly to your inbox.</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>

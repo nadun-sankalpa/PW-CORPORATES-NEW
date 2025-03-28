@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting Services - PW Corporates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accounting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/accounting.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html" class="active">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header accounting-header">
+        <div class="page-header-particles"></div>
+        <div class="container">
+            <div class="page-header-content" data-aos="fade-up" >
+                <h1>Accounting Services</h1>
+                <p>Professional financial management solutions for businesses in Sri Lanka</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Accounting</span>
+                </div>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-element element1">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <div class="floating-element element2">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <div class="floating-element element3">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <div class="floating-element element4">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+        <div class="page-header-wave" style="margin-top: 15%;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,224C672,213,768,171,864,149.3C960,128,1056,128,1152,149.3C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview-section">
+        <div class="container" style="margin-top: -5%;">
+            <div class="overview-content">
+                <div class="overview-text" data-aos="fade-right">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Financial Excellence</h2>
+                        <p class="section-subtitle">Comprehensive accounting solutions for your business</p>
+                    </div>
+                    <p>At PW Corporates, we provide comprehensive accounting services tailored to meet the unique needs of businesses in Sri Lanka. Our team of certified accountants and financial experts brings years of experience to help your business maintain financial health and compliance.</p>
+                    <p>We understand the complexities of financial management and the importance of accurate accounting for business success. Our solutions are designed to give you peace of mind while we handle your financial records with precision and professionalism.</p>
+                    <ul class="overview-features">
+                        <li><i class="fas fa-check-circle"></i> Certified accounting professionals</li>
+                        <li><i class="fas fa-check-circle"></i> Tailored solutions for businesses of all sizes</li>
+                        <li><i class="fas fa-check-circle"></i> Compliance with Sri Lankan tax regulations</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced financial reporting tools</li>
+                        <li><i class="fas fa-check-circle"></i> Dedicated account managers</li>
+                    </ul>
+                    <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <img src="images/accounting-overview.jpg" alt="Accounting Services">
+                        <div class="image-overlay">
+                            <div class="play-button" id="overview-video-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="number">15+</span>
+                        <span class="text">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container">
+                <iframe width="560" height="315" src="/placeholder.svg" title="Accounting Services Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="accounting-services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Accounting Services</h2>
+                <p class="section-subtitle">Comprehensive financial solutions for your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Bookkeeping</h3>
+                    <p>Accurate recording of financial transactions, including sales, purchases, receipts, and payments.</p>
+                    <div class="service-hover-content">
+                        <h3>Bookkeeping Services</h3>
+                        <ul>
+                            <li>Daily transaction recording</li>
+                            <li>Bank reconciliation</li>
+                            <li>Accounts receivable management</li>
+                            <li>Accounts payable management</li>
+                            <li>General ledger maintenance</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3>Financial Reporting</h3>
+                    <p>Comprehensive financial statements and reports to help you understand your business's financial position.</p>
+                    <div class="service-hover-content">
+                        <h3>Financial Reporting</h3>
+                        <ul>
+                            <li>Balance sheet preparation</li>
+                            <li>Income statement preparation</li>
+                            <li>Cash flow statement</li>
+                            <li>Customized financial reports</li>
+                            <li>Management reporting</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Tax Planning</h3>
+                    <p>Strategic tax planning to minimize your tax liability while ensuring full compliance with tax laws.</p>
+                    <div class="service-hover-content">
+                        <h3>Tax Planning Services</h3>
+                        <ul>
+                            <li>Tax strategy development</li>
+                            <li>Tax compliance</li>
+                            <li>VAT/GST management</li>
+                            <li>Tax deduction optimization</li>
+                            <li>Tax audit support</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Financial Analysis</h3>
+                    <p>In-depth analysis of your financial data to identify trends, opportunities, and areas for improvement.</p>
+                    <div class="service-hover-content">
+                        <h3>Financial Analysis</h3>
+                        <ul>
+                            <li>Ratio analysis</li>
+                            <li>Trend analysis</li>
+                            <li>Profitability assessment</li>
+                            <li>Cash flow analysis</li>
+                            <li>Budget variance analysis</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Audit Support</h3>
+                    <p>Professional assistance during internal and external audits to ensure smooth and successful outcomes.</p>
+                    <div class="service-hover-content">
+                        <h3>Audit Support Services</h3>
+                        <ul>
+                            <li>Audit preparation</li>
+                            <li>Documentation organization</li>
+                            <li>Audit representation</li>
+                            <li>Post-audit implementation</li>
+                            <li>Compliance verification</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Accounting Software</h3>
+                    <p>Implementation and support for modern accounting software solutions tailored to your business needs.</p>
+                    <div class="service-hover-content">
+                        <h3>Accounting Software Solutions</h3>
+                        <ul>
+                            <li>Software selection consulting</li>
+                            <li>Implementation and setup</li>
+                            <li>Staff training</li>
+                            <li>System integration</li>
+                            <li>Ongoing technical support</li>
+                        </ul>
+                        <a href="#contact-form" class="btn btn-light">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Process</h2>
+                <p class="section-subtitle">How we deliver exceptional accounting services</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Initial Consultation</h3>
+                        <p>We begin with a comprehensive consultation to understand your business, financial needs, and goals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Assessment & Planning</h3>
+                        <p>Our team assesses your current financial systems and develops a tailored accounting plan for your business.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Implementation</h3>
+                        <p>We implement the agreed-upon accounting solutions, including software setup and process optimization.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Ongoing Support</h3>
+                        <p>Our team provides continuous support, regular reporting, and proactive financial management.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3>Review & Optimization</h3>
+                        <p>We regularly review your financial performance and optimize strategies to improve your business outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Accounting Team</h2>
+                <p class="section-subtitle">Meet our certified accounting professionals</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="images/accountant1.jpg" alt="Team Member">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Rajith Fernando</h3>
+                        <p class="team-position">Chief Accountant</p>
+                        <p class="team-description">CPA with 15+ years of experience in corporate accounting and financial management.</p>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="images/accountant2.jpg" alt="Team Member">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Amali Perera</h3>
+                        <p class="team-position">Tax Specialist</p>
+                        <p class="team-description">Tax expert with extensive knowledge of Sri Lankan tax laws and international taxation.</p>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="images/accountant3.jpg" alt="Team Member">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Dinesh Kumar</h3>
+                        <p class="team-position">Financial Analyst</p>
+                        <p class="team-description">Specializes in financial analysis, forecasting, and strategic financial planning.</p>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-image">
+                        <img src="images/accountant4.jpg" alt="Team Member">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Lakshmi Jayawardena</h3>
+                        <p class="team-position">Audit Manager</p>
+                        <p class="team-description">Certified auditor with expertise in internal controls and compliance auditing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your business needs</p>
+            </div>
+            <div class="pricing-tabs" data-aos="fade-up">
+                <div class="pricing-tab-buttons">
+                    <button class="pricing-tab-button active" data-plan="monthly">Monthly</button>
+                    <button class="pricing-tab-button" data-plan="yearly">Yearly <span class="discount-badge">Save 20%</span></button>
+                </div>
+                <div class="pricing-plans">
+                    <div class="pricing-plan" data-aos="fade-up" data-aos-delay="100">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Starter</h3>
+                            <div class="plan-price">
+                                <span class="price monthly">₨ 15,000</span>
+                                <span class="price yearly">₨ 144,000</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="plan-description">Perfect for small businesses and startups</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Basic bookkeeping</li>
+                                <li><i class="fas fa-check"></i> Monthly financial statements</li>
+                                <li><i class="fas fa-check"></i> Basic tax preparation</li>
+                                <li><i class="fas fa-check"></i> Email support</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Financial analysis</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Dedicated accountant</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Audit support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#contact-form" class="btn btn-outline">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="pricing-plan popular" data-aos="fade-up" data-aos-delay="200">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="plan-header">
+                            <h3 class="plan-name">Business</h3>
+                            <div class="plan-price">
+                                <span class="price monthly">₨ 35,000</span>
+                                <span class="price yearly">₨ 336,000</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="plan-description">Ideal for growing businesses</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Comprehensive bookkeeping</li>
+                                <li><i class="fas fa-check"></i> Monthly financial statements</li>
+                                <li><i class="fas fa-check"></i> Full tax preparation</li>
+                                <li><i class="fas fa-check"></i> Priority email & phone support</li>
+                                <li><i class="fas fa-check"></i> Quarterly financial analysis</li>
+                                <li><i class="fas fa-check"></i> Dedicated accountant</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Audit support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#contact-form" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="pricing-plan" data-aos="fade-up" data-aos-delay="300">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Enterprise</h3>
+                            <div class="plan-price">
+                                <span class="price monthly">₨ 75,000</span>
+                                <span class="price yearly">₨ 720,000</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="plan-description">For established businesses with complex needs</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Advanced bookkeeping</li>
+                                <li><i class="fas fa-check"></i> Custom financial reporting</li>
+                                <li><i class="fas fa-check"></i> Strategic tax planning</li>
+                                <li><i class="fas fa-check"></i> 24/7 dedicated support</li>
+                                <li><i class="fas fa-check"></i> Monthly financial analysis</li>
+                                <li><i class="fas fa-check"></i> Senior dedicated accountant</li>
+                                <li><i class="fas fa-check"></i> Full audit support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#contact-form" class="btn btn-outline">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-note" data-aos="fade-up">
+                <p>Need a custom solution? <a href="#contact-form">Contact us</a> for a tailored package that meets your specific requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials accounting-testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Client Success Stories</h2>
+                <p class="section-subtitle">What our accounting clients say about us</p>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-track">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>PW Corporates transformed our accounting processes, saving us time and resources while ensuring complete compliance with local regulations. Their team's expertise and dedication have been invaluable to our business growth.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client1.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Rajiv Perera</h4>
+                                <p>CEO, Lanka Innovations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>The tax planning services provided by PW Corporates have significantly reduced our tax liability while maintaining full compliance. Their proactive approach and attention to detail have saved us millions in unnecessary tax expenses.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client2.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Amali Fernando</h4>
+                                <p>Director, Colombo Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>As a small business owner, I was struggling with financial management until I partnered with PW Corporates. Their affordable yet comprehensive accounting services have given me clear visibility into my business finances and helped me make better decisions.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client3.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Dinesh Kumar</h4>
+                                <p>Founder, Tech Solutions SL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about our accounting services</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <h3>What accounting services do you offer for small businesses?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a comprehensive range of accounting services for small businesses, including bookkeeping, financial statement preparation, tax planning and filing, payroll processing, and financial analysis. Our services are scalable and can be tailored to meet the specific needs of your business.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can your accounting services help my business save money?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our accounting services can help your business save money in several ways. First, we ensure tax compliance while identifying legitimate tax deductions and credits. Second, we provide financial insights that help you identify cost-saving opportunities. Third, we help prevent costly errors and penalties. Finally, outsourcing your accounting to us is often more cost-effective than hiring in-house staff.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you work with businesses in specific industries?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have experience working with businesses across various industries in Sri Lanka, including retail, hospitality, manufacturing, technology, and professional services. Our team understands the unique accounting requirements and challenges of different sectors, allowing us to provide industry-specific solutions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How often will I receive financial reports?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The frequency of financial reports depends on your service package and business needs. Typically, we provide monthly financial statements, but we can also arrange for quarterly or weekly reporting. We work with you to establish a reporting schedule that gives you the financial visibility you need to make informed business decisions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What accounting software do you use?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are proficient in various accounting software platforms, including QuickBooks, Xero, Sage, and local Sri Lankan accounting systems. We can work with your existing software or recommend and implement a solution that best fits your business requirements and budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">Contact us for a free consultation</p>
+                    </div>
+                    <p>Ready to transform your financial management? Contact us today to discuss how our accounting services can help your business thrive.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Business Avenue, Colombo, Sri Lanka</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+94 11 234 5678</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>accounting@pwcorporates.lk</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="accountingContactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a Service</option>
+                                <option value="Bookkeeping">Bookkeeping</option>
+                                <option value="Financial Reporting">Financial Reporting</option>
+                                <option value="Tax Planning">Tax Planning</option>
+                                <option value="Financial Analysis">Financial Analysis</option>
+                                <option value="Audit Support">Audit Support</option>
+                                <option value="Accounting Software">Accounting Software</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your business and accounting needs" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-particles"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Transform Your Financial Management?</h2>
+                <p>Contact us today for a free consultation and discover how our accounting services can help your business thrive.</p>
+                <a href="#contact-form" class="btn btn-light">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+     <script src="js/accounting.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>

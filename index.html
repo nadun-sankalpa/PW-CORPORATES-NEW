@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Corporates - Business Solutions in Sri Lanka</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">Your Trusted Business Partner in Sri Lanka</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">We provide comprehensive corporate solutions to help your business thrive in today's competitive market.</p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-outline">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="600">
+                <img src="images/background.jpg" alt="Business Solutions" >
+                <div class="floating-shape shape1"></div>
+                <div class="floating-shape shape2"></div>
+                <div class="floating-shape shape3"></div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,224C672,213,768,171,864,149.3C960,128,1056,128,1152,149.3C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-subtitle">We deliver exceptional business solutions with a focus on quality and client satisfaction</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Our team consists of certified professionals with years of experience in their respective fields.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Proven Results</h3>
+                    <p>We have a track record of delivering measurable results and helping businesses grow.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Tailored Solutions</h3>
+                    <p>We customize our services to meet the unique needs and goals of your business.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated support team is available around the clock to assist you with any issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive business solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Accounting</h3>
+                    <p>Professional accounting services to manage your financial records with precision and compliance.</p>
+                    <a href="accounting.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Accounting Services</h3>
+                        <ul>
+                            <li>Bookkeeping</li>
+                            <li>Financial Reporting</li>
+                            <li>Tax Planning</li>
+                            <li>Audit Support</li>
+                        </ul>
+                        <a href="accounting.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>Comprehensive property management solutions to maximize your real estate investments.</p>
+                    <a href="property-management.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Property Management</h3>
+                        <ul>
+                            <li>Tenant Acquisition</li>
+                            <li>Rent Collection</li>
+                            <li>Property Maintenance</li>
+                            <li>Financial Reporting</li>
+                        </ul>
+                        <a href="property-management.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Show Money</h3>
+                    <p>Financial display services for visa applications and business verification purposes.</p>
+                    <a href="show-money.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Show Money Services</h3>
+                        <ul>
+                            <li>Visa Application Support</li>
+                            <li>Financial Verification</li>
+                            <li>Documentation Assistance</li>
+                            <li>Legal Compliance</li>
+                        </ul>
+                        <a href="show-money.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Salary Management</h3>
+                    <p>Efficient payroll and salary management systems to streamline your HR operations.</p>
+                    <a href="salary-management.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Salary Management</h3>
+                        <ul>
+                            <li>Payroll Processing</li>
+                            <li>Tax Calculations</li>
+                            <li>Employee Benefits</li>
+                            <li>Compliance Management</li>
+                        </ul>
+                        <a href="salary-management.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Legal Advice</h3>
+                    <p>Expert legal consultation to navigate complex business regulations and compliance.</p>
+                    <a href="legal-advice.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Legal Advisory</h3>
+                        <ul>
+                            <li>Business Registration</li>
+                            <li>Contract Review</li>
+                            <li>Regulatory Compliance</li>
+                            <li>Dispute Resolution</li>
+                        </ul>
+                        <a href="legal-advice.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Tourism</h3>
+                    <p>Specialized tourism services for corporate retreats and business travel in Sri Lanka.</p>
+                    <a href="tourism.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-hover-content">
+                        <h3>Tourism Services</h3>
+                        <ul>
+                            <li>Corporate Retreats</li>
+                            <li>Business Travel</li>
+                            <li>Event Management</li>
+                            <li>Customized Tours</li>
+                        </ul>
+                        <a href="tourism.html" class="btn btn-light">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/about-image.png" alt="About PW Corporates">
+                    <div class="experience-badge">
+                        <span class="number">10+</span>
+                        <span class="text">Years Experience</span>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">About PW Corporates</h2>
+                        <p class="section-subtitle">Your trusted business partner since 2013</p>
+                    </div>
+                    <p>Founded in Sri Lanka with a vision to transform how businesses operate, PW Corporates has been a trusted partner for companies of all sizes for over a decade. Our team of experts brings together years of experience across multiple industries to provide innovative solutions that drive growth and efficiency.</p>
+                    <p>We believe in building long-term relationships with our clients based on trust, integrity, and exceptional service. Our commitment to excellence has made us one of the leading business solution providers in Sri Lanka.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="50">0</span>+</div>
+                            <div class="stat-label">Team Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="100">0</span>%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Trusted by businesses across Sri Lanka</p>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-track">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>PW Corporates transformed our accounting processes, saving us time and resources while ensuring complete compliance with local regulations. Their team's expertise and dedication have been invaluable to our business growth.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client1.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Rajiv Perera</h4>
+                                <p>CEO, Lanka Innovations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>Their property management services have been instrumental in maximizing our real estate portfolio's performance. The team's attention to detail and proactive approach has significantly increased our rental income.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client2.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Amali Fernando</h4>
+                                <p>Director, Colombo Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>The legal team at PW Corporates provided exceptional guidance during our company's expansion, navigating complex regulations with ease. Their expertise saved us from potential legal issues and ensured smooth operations.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client3.jpg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Dinesh Kumar</h4>
+                                <p>Founder, Tech Solutions SL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-particles"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Contact us today for a free consultation and discover how PW Corporates can help you achieve your business goals.</p>
+                <a href="contact.html" class="btn btn-light">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-preview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Latest Insights</h2>
+                <p class="section-subtitle">Stay updated with our latest articles and business tips</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="images/blog1.jpg" alt="Blog Post">
+                        <div class="blog-date">
+                            <span class="day">15</span>
+                            <span class="month">Jun</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Accounting</div>
+                        <h3><a href="blog-single.html">10 Tax Saving Strategies for Small Businesses in Sri Lanka</a></h3>
+                        <p>Discover effective tax-saving strategies specifically designed for small businesses operating in Sri Lanka.</p>
+                        <a href="blog-single.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="images/blog2.jpg" alt="Blog Post">
+                        <div class="blog-date">
+                            <span class="day">08</span>
+                            <span class="month">Jun</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Property Management</div>
+                        <h3><a href="blog-single.html">The Future of Real Estate Investment in Colombo: Trends to Watch</a></h3>
+                        <p>Explore the emerging trends in Colombo's real estate market and learn how to position your investment portfolio.</p>
+                        <a href="blog-single.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <img src="images/blog3.jpg" alt="Blog Post">
+                        <div class="blog-date">
+                            <span class="day">01</span>
+                            <span class="month">Jun</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Legal Advice</div>
+                        <h3><a href="blog-single.html">Understanding the New Business Registration Laws in Sri Lanka</a></h3>
+                        <p>A comprehensive guide to the recently updated business registration laws in Sri Lanka and how they affect your business.</p>
+                        <a href="blog-single.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-more" data-aos="fade-up" data-aos-delay="400">
+                <a href="blog.html" class="btn btn-outline">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Clients</h2>
+                <p class="section-subtitle">Trusted by leading companies in Sri Lanka</p>
+            </div>
+            <div class="client-logos" data-aos="fade-up" data-aos-delay="200">
+                <div class="client-logo">
+                    <img src="images/client-logo1.png" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="images/client-logo2.png" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="images/client-logo3.png" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="images/client-logo4.png" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="images/client-logo5.png" alt="Client Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>

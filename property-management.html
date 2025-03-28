@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Management - PW Corporates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/property-management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/property-management.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-toggle-track">
+            <div class="sun-icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="moon-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">PW <span>Corporates</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html" class="active">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="slide-image" style="background-image: url('images/property1.jpg')"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <h1 class="slide-title">Professional Property Management</h1>
+                        <p class="slide-subtitle">Comprehensive property management solutions for residential and commercial properties</p>
+                        <div class="slide-buttons">
+                            <a href="#services" class="btn btn-primary">Our Services</a>
+                            <a href="#contact" class="btn btn-outline">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="slide-image" style="background-image: url('images/property2.jpg')"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <h1 class="slide-title">Maximize Your Property Value</h1>
+                        <p class="slide-subtitle">Expert property management to increase returns and reduce vacancies</p>
+                        <div class="slide-buttons">
+                            <a href="#services" class="btn btn-primary">Our Services</a>
+                            <a href="#contact" class="btn btn-outline">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="slide-image" style="background-image: url('images/property3.jpg')"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <h1 class="slide-title">Stress-Free Property Ownership</h1>
+                        <p class="slide-subtitle">Let us handle the day-to-day management while you enjoy the benefits</p>
+                        <div class="slide-buttons">
+                            <a href="#services" class="btn btn-primary">Our Services</a>
+                            <a href="#contact" class="btn btn-outline">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-grid">
+                        <div class="grid-item">
+                            <img src="images/property-about1.jpg" alt="Property Management">
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/property-about2.jpg" alt="Property Management">
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/property-about3.jpg" alt="Property Management">
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/property-about4.jpg" alt="Property Management">
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="number">15+</span>
+                        <span class="text">Years Experience</span>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Sri Lanka's Premier Property Management Company</h2>
+                        <p class="section-subtitle">Trusted by property owners across the country</p>
+                    </div>
+                    <p>At PW Corporates, we provide comprehensive property management services designed to maximize your property's potential while minimizing your stress. With over 15 years of experience in the Sri Lankan real estate market, we understand the unique challenges and opportunities that property owners face.</p>
+                    <p>Our team of professional property managers handles everything from tenant screening and rent collection to maintenance and legal compliance, allowing you to enjoy the benefits of property ownership without the day-to-day hassles.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>500+</h3>
+                                <p>Properties Managed</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>1000+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>25+</h3>
+                                <p>Locations Covered</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Property Management Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for property owners</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <h3>Tenant Screening & Placement</h3>
+                        <p>Finding the right tenants for your property</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Tenant Screening & Placement</h3>
+                        <ul>
+                            <li>Comprehensive background checks</li>
+                            <li>Credit history verification</li>
+                            <li>Employment verification</li>
+                            <li>Previous landlord references</li>
+                            <li>Lease preparation and signing</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Rent Collection & Accounting</h3>
+                        <p>Efficient financial management for your property</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Rent Collection & Accounting</h3>
+                        <ul>
+                            <li>Timely rent collection</li>
+                            <li>Online payment options</li>
+                            <li>Detailed financial reporting</li>
+                            <li>Tax documentation</li>
+                            <li>Expense tracking</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Maintenance & Repairs</h3>
+                        <p>Keeping your property in excellent condition</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Maintenance & Repairs</h3>
+                        <ul>
+                            <li>24/7 emergency response</li>
+                            <li>Preventive maintenance</li>
+                            <li>Vendor management</li>
+                            <li>Quality control inspections</li>
+                            <li>Cost-effective solutions</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Marketing & Advertising</h3>
+                        <p>Effective promotion to minimize vacancies</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Marketing & Advertising</h3>
+                        <ul>
+                            <li>Professional photography</li>
+                            <li>Online listing management</li>
+                            <li>Social media promotion</li>
+                            <li>Virtual tours</li>
+                            <li>Targeted advertising</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h3>Legal Compliance</h3>
+                        <p>Ensuring your property meets all regulations</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Legal Compliance</h3>
+                        <ul>
+                            <li>Lease agreement preparation</li>
+                            <li>Regulatory compliance</li>
+                            <li>Eviction management</li>
+                            <li>Legal documentation</li>
+                            <li>Dispute resolution</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="600">
+                    <div class="card-front">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Property Value Optimization</h3>
+                        <p>Strategies to increase your property's value</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Property Value Optimization</h3>
+                        <ul>
+                            <li>Market analysis</li>
+                            <li>Improvement recommendations</li>
+                            <li>ROI calculations</li>
+                            <li>Rental rate optimization</li>
+                            <li>Investment consulting</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Types Section -->
+    <section class="property-types-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Property Types We Manage</h2>
+                <p class="section-subtitle">Specialized management for various property types</p>
+            </div>
+            <div class="property-types-grid">
+                <div class="property-type" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="property-image">
+                        <img src="images/residential.jpg" alt="Residential Properties">
+                        <div class="property-overlay">
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Residential Properties</h3>
+                        <p>Houses, apartments, condos, and villas</p>
+                    </div>
+                </div>
+                <div class="property-type" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="property-image">
+                        <img src="images/commercial.jpg" alt="Commercial Properties">
+                        <div class="property-overlay">
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Commercial Properties</h3>
+                        <p>Office spaces, retail stores, and warehouses</p>
+                    </div>
+                </div>
+                <div class="property-type" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="property-image">
+                        <img src="images/vacation.jpg" alt="Vacation Rentals">
+                        <div class="property-overlay">
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Vacation Rentals</h3>
+                        <p>Beach houses, holiday homes, and tourist accommodations</p>
+                    </div>
+                </div>
+                <div class="property-type" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="property-image">
+                        <img src="images/multi-unit.jpg" alt="Multi-Unit Properties">
+                        <div class="property-overlay">
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Multi-Unit Properties</h3>
+                        <p>Apartment buildings and multi-family complexes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Management Process</h2>
+                <p class="section-subtitle">How we deliver exceptional property management</p>
+            </div>
+            <div class="process-timeline" data-aos="fade-up">
+                <div class="timeline-track">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h3>Initial Consultation</h3>
+                            <p>We begin with a detailed consultation to understand your property and goals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <h3>Property Assessment</h3>
+                            <p>Our team conducts a thorough assessment of your property's condition and market value.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-file-signature"></i>
+                            </div>
+                            <h3>Management Agreement</h3>
+                            <p>We establish a clear management agreement outlining services and responsibilities.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h3>Marketing & Tenant Acquisition</h3>
+                            <p>We market your property and screen potential tenants to find the best match.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <h3>Move-In & Ongoing Management</h3>
+                            <p>We handle the move-in process and provide ongoing management services.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h3>Regular Reporting & Optimization</h3>
+                            <p>We provide regular reports and continuously optimize your property's performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Testimonials from property owners</p>
+            </div>
+            <div class="testimonials-container" data-aos="fade-up">
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>PW Corporates has managed my apartment building for over 5 years, and I couldn't be happier with their service. They've increased my rental income by 20% while reducing vacancies and maintenance costs. Their team is professional, responsive, and truly cares about maximizing my property's potential.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client1.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Rajiv Perera</h4>
+                                <p>Apartment Building Owner, Colombo</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>As an overseas property owner, I needed a reliable company to manage my vacation rental in Galle. PW Corporates has exceeded my expectations in every way. They handle everything from guest bookings to maintenance, and my property is always in perfect condition. The regular financial reports give me complete peace of mind.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client2.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Amali Fernando</h4>
+                                <p>Vacation Home Owner, Galle</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>I own several commercial properties in Kandy, and managing them was becoming a full-time job. Since hiring PW Corporates, I've been able to focus on my other business interests while they handle all aspects of property management. Their tenant screening process is thorough, and they've filled my properties with reliable, long-term tenants.</p>
+                        <div class="client-info">
+                            <div class="client-image">
+                                <img src="images/client3.jpg" alt="Client">
+                            </div>
+                            <div class="client-details">
+                                <h4>Dinesh Kumar</h4>
+                                <p>Commercial Property Owner, Kandy</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Answers to common questions about our property management services</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <h3>What services are included in your property management package?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our comprehensive property management package includes tenant screening and placement, rent collection, maintenance coordination, financial reporting, legal compliance, property inspections, and 24/7 emergency response. We also offer marketing services to minimize vacancies and strategic planning to maximize your property's value. We can customize our services based on your specific needs and property type.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much do your property management services cost?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our property management fees typically range from 8% to 12% of the monthly rental income, depending on the property type, size, and the specific services required. We also charge a tenant placement fee equal to 50% of one month's rent when we find a new tenant. For vacation rentals, our fee structure is different and based on a percentage of the booking revenue. We're transparent about our fees and would be happy to provide a detailed quote based on your specific property.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do you screen potential tenants?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We conduct a thorough screening process that includes credit checks, employment verification, income verification, previous landlord references, and background checks. We verify that potential tenants have a stable income (typically 3 times the monthly rent), a positive rental history, and no relevant criminal history. Our rigorous screening process helps ensure that we place reliable, responsible tenants who will take good care of your property and pay rent on time.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do you handle maintenance and repairs?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We have a network of licensed, insured, and pre-vetted contractors and maintenance professionals who provide quality work at reasonable rates. For minor repairs (typically under Rs. 25,000), we handle them immediately and include them in your monthly statement. For major repairs, we contact you with estimates for approval before proceeding. We also conduct regular preventive maintenance to catch small issues before they become expensive problems. Our 24/7 emergency response system ensures that urgent issues are addressed promptly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How often will I receive updates about my property?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide monthly financial statements detailing all income and expenses related to your property. These statements are available through our secure online portal, which you can access at any time. We also conduct quarterly property inspections and send you detailed reports with photos. Additionally, we'll contact you immediately regarding any significant issues or decisions that require your input. Our property managers are always available to discuss your property and answer any questions you may have.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Contact us for a free property management consultation</p>
+            </div>
+            <div class="contact-container" data-aos="fade-up">
+                <div class="contact-form-container">
+                    <form id="propertyContactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="property-type">Property Type</label>
+                                <select id="property-type" name="property-type">
+                                    <option value="">Select Property Type</option>
+                                    <option value="Residential">Residential</option>
+                                    <option value="Commercial">Commercial</option>
+                                    <option value="Vacation Rental">Vacation Rental</option>
+                                    <option value="Multi-Unit">Multi-Unit</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your property and management needs" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info-container">
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467512262!2d79.84882661477222!3d6.910723995005368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259251b57a431%3A0x8f44e226d6d20a7e!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1625124347514!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Our Location</h3>
+                                <p>123 Business Avenue, Colombo, Sri Lanka</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Call Us</h3>
+                                <p>+94 11 234 5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email Us</h3>
+                                <p>property@pwcorporates.lk</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Working Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Maximize Your Property's Potential?</h2>
+                <p>Contact us today for a free consultation and discover how our property management services can help you achieve your goals.</p>
+                <a href="#contact" class="btn btn-light">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget about-widget">
+                        <div class="footer-logo">
+                            <span class="logo-text">PW <span>Corporates</span></span>
+                        </div>
+                        <p>Your trusted business partner in Sri Lanka, providing comprehensive corporate solutions to help businesses thrive in today's competitive market.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="accounting.html">Accounting</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="show-money.html">Show Money</a></li>
+                            <li><a href="salary-management.html">Salary Management</a></li>
+                            <li><a href="legal-advice.html">Legal Advice</a></li>
+                            <li><a href="tourism.html">Tourism</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Colombo, Sri Lanka</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+94 11 234 5678</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@pwcorporates.lk</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2023 PW Corporates. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>
